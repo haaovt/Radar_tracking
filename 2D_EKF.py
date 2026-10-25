@@ -15,7 +15,7 @@ Chạy:  python tracker_B_ekf.py [đường_dẫn/pointcloud.npz]
 import os
 import sys
 import numpy as np
-from radar_common import (BASE_CFG, run_pipeline, save_csv, plot_trajectory, print_summary)
+from Radar_base import (BASE_CFG, run_pipeline, save_csv, plot_trajectory, print_summary)
 
 CFG = dict(BASE_CFG)
 CFG.update(
