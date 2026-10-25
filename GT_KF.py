@@ -9,7 +9,7 @@ và làm đặc trưng cho DBSCAN), vì ṙ là hàm phi tuyến của trạng t
 Chạy:  python kf_tracker.py --data pointcloud.npz --out ket_qua
 """
 import numpy as np
-from gtrack_core import BaseFilter, run_cli
+from Gtrack_core import BaseFilter, run_cli
 
 
 class KF(BaseFilter):

@@ -11,7 +11,7 @@ Tuyến tính hóa bằng Jacobian J_H (1-31/1-32, Phụ lục 7.2); các cột 
 Chạy:  python ekf_tracker.py --data pointcloud.npz --out ket_qua
 """
 import numpy as np
-from gtrack_core import BaseFilter, run_cli
+from Gtrack_core import BaseFilter, run_cli
 
 
 def h_polar(x):
